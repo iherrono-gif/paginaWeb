@@ -140,6 +140,7 @@ section {
   font-weight: 600;
 }
 
+<<<<<<< HEAD
 /* Todas las imágenes con la misma proporción y sin deformarse */
 .card-img-top{
   width: 100%;
@@ -151,6 +152,8 @@ section {
 }
 
 
+=======
+>>>>>>> origin/main
 /* =========================
    ✉️ FORMULARIO
    ========================= */
