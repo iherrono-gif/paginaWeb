@@ -1,0 +1,165 @@
+/* =========================
+   🎨 PALETA DE COLORES
+   ========================= */
+:root {
+  --color-primario: #f6b73c; /* Amarillo cálido */
+  --color-secundario: #fdf5e6; /* Fondo crema */
+  --color-oscuro: #333;
+  --color-claro: #fff;
+  --color-texto: #555;
+}
+
+/* =========================
+   🔤 BASE GENERAL
+   ========================= */
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-texto);
+  background-color: var(--color-claro);
+  scroll-behavior: smooth;
+}
+
+/* =========================
+   🔝 NAVBAR
+   ========================= */
+.navbar {
+  background-color: var(--color-claro) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand img {
+  filter: drop-shadow(0 1px 1px rgba(0,0,0,0.2));
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: var(--color-oscuro) !important;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--color-primario) !important;
+}
+
+/* =========================
+   🏠 HERO / INICIO
+   ========================= */
+.hero {
+  background: linear-gradient(180deg, #fffdf6 0%, #fef6e8 100%);
+}
+
+.hero h1 {
+  color: var(--color-oscuro);
+}
+
+.hero .btn-primary {
+  background-color: var(--color-primario);
+  border: none;
+}
+
+.hero .btn-primary:hover {
+  background-color: #e3a62f;
+}
+
+.hero .btn-outline-light {
+  border-color: var(--color-primario);
+  color: var(--color-primario);
+}
+
+.hero .btn-outline-light:hover {
+  background-color: var(--color-primario);
+  color: var(--color-claro);
+}
+
+/* Carrusel */
+#carruselGatos .carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+}
+@media (min-width: 992px) {
+  #carruselGatos .carousel-item img {
+    height: 500px;
+  }
+}
+
+/* =========================
+   📋 SECCIONES
+   ========================= */
+section {
+  scroll-margin-top: 80px;
+}
+
+#info {
+  background-color: var(--color-secundario);
+}
+
+#info .border {
+  border-color: #f6deb3 !important;
+}
+
+#info h3 {
+  color: var(--color-primario);
+}
+
+/* =========================
+   🐾 CARDS
+   ========================= */
+.card {
+  border: none;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+  color: var(--color-primario);
+  font-weight: 600;
+}
+
+/* =========================
+   ✉️ FORMULARIO
+   ========================= */
+#contacto {
+  background-color: var(--color-secundario);
+}
+
+#contacto h2 {
+  color: var(--color-primario);
+}
+
+.form-control:focus {
+  border-color: var(--color-primario);
+  box-shadow: 0 0 0 0.2rem rgba(246, 183, 60, 0.25);
+}
+
+.btn-primary {
+  background-color: var(--color-primario);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e3a62f;
+}
+
+/* =========================
+   ⚓ FOOTER
+   ========================= */
+footer {
+  background-color: var(--color-claro);
+}
+
+footer small {
+  color: var(--color-texto);
+}
+
+footer i:hover {
+  color: var(--color-primario);
+  transition: color 0.2s ease;
+}
+
