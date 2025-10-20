@@ -103,6 +103,24 @@ section {
   color: var(--color-primario);
 }
 
+#info i:hover, #info svg:hover {
+  color: #e3a62f;
+  transform: scale(1.1);
+  transition: 0.2s ease;
+}
+
+.text-primary {
+  color: #f6b73c !important; /* Amarillo cálido */
+}
+
+.icon-color:hover {
+  color: #e3a62f; /* tono más oscuro */
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+
+
 /* =========================
    🐾 CARDS
    ========================= */
@@ -121,6 +139,17 @@ section {
   color: var(--color-primario);
   font-weight: 600;
 }
+
+/* Todas las imágenes con la misma proporción y sin deformarse */
+.card-img-top{
+  width: 100%;
+  aspect-ratio: 4 / 3;     /* 16/9, 3/2... ajusta a tu gusto */
+  object-fit: cover;        /* llena el área recortando lo necesario */
+  object-position: center;  /* centra el recorte */
+  display: block;
+  height: 500px;
+}
+
 
 /* =========================
    ✉️ FORMULARIO

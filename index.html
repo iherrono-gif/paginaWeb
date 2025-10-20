@@ -41,20 +41,228 @@
 
 
     <!-- Sección 2: Bienvenida -->
-   
+   <section id="inicio" class="hero py-5">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-12 col-md-6">
+            <h1 class="display-5 fw-bold">Adopta, cambia una vida 🐾</h1>
+            <p class="lead mb-4">Somos una red de rescate de gatos. Con tu ayuda, cada michi puede encontrar un hogar responsable.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="#adopta" class="btn btn-primary btn-lg"><i class="bi bi-heart"></i> Ver gatos</a>
+              <a href="#info" class="btn btn-outline-light btn-lg">Cómo funciona</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div id="carruselGatos" class="carousel slide rounded-4 overflow-hidden shadow" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="imgs/lloyd-dirks-R1oSj2m-7Ks-unsplash.jpg" alt="Gato 1">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="imgs/loan-7AIDE8PrvA0-unsplash.jpg" alt="Gato 2">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="imgs/raul-varzar-1l2waV8glIQ-unsplash.jpg" alt="Gato 3">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carruselGatos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carruselGatos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Sección 3: Información -->
+    <section id="info" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-4 text-center">¿Cómo adoptar un gato?</h2>
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <i class="bi bi-search display-4 mb-3 icon-color"></i>
+                <h5 class="card-title">1. Encuentra a tu compañero</h5>
+                <p class="card-text">Explora nuestra galería de gatos disponibles para adopción y elige el que más te guste.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <i class="bi bi-chat-dots display-4 mb-3 icon-color"></i>
+                <h5 class="card-title">2. Contáctanos</h5>
+                <p class="card-text">Llena el formulario de contacto para iniciar el proceso de adopción.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <i class="bi bi-house-door display-4 mb-3 icon-color"></i>
+                <h5 class="card-title">3. Dale un hogar</h5>
+                <p class="card-text">Una vez aprobado, lleva a tu nuevo amigo a casa y disfruta de su compañía.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     
 
     <!-- Sección 4: Gatos en adopción -->
+    <section id="adopta" class="py-5">
+      <div class="container">
+        <h2 class="mb-4 text-center">Gatos en adopción</h2>
+        <div class="row g-4">
+          <!-- Tarjeta de gato 1 -->
+          <div class="col-12 col-md-4">
+            <div class="card h-100">
+              <img src="imgs/loan-7AIDE8PrvA0-unsplash.jpg" class="card-img-top" alt="Gato 1" fit="cover">
+              <div class="card-body">
+                <h5 class="card-title">Misu</h5>
+                <p class="card-text">Edad: 2 años<br>Sexo: Hembra<br>Descripción: Misu es una gata juguetona y cariñosa que busca un hogar lleno de amor.</p>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalGato1">Más info</button>
+              </div>
+            </div>
+          </div>
+          <!-- Tarjeta de gato 2 -->
+          <div class="col-12 col-md-4">
+            <div class="card h-100">
+              <img src="imgs/philcreates-pdALzg0yN-8-unsplash.jpg" class="card-img-top" alt="Gato 2" fit="cover">
+              <div class="card-body">
+                <h5 class="card-title">Tommy</h5>
+                <p class="card-text">Edad: 3 años<br>Sexo: Macho<br>Descripción: Tommy es un gato tranquilo y afectuoso que disfruta de las siestas al sol.</p>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalGato2">Más info</button>
+              </div>
+            </div>
+          </div>
+          <!-- Tarjeta de gato 3 -->
+          <div class="col-12 col-md-4">
+            <div class="card h-100">
+              <img src="imgs/lloyd-dirks-R1oSj2m-7Ks-unsplash.jpg" class="card-img-top" alt="Gato 3" fit="cover">
+              <div class="card-body">
+                <h5 class="card-title">Luna</h5>
+                <p class="card-text">Edad: 1 año<br>Sexo: Hembra<br>Descripción: Luna es una gata curiosa y enérgica que adora explorar nuevos lugares.</p>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalGato3">Más info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     
 
-        <!-- Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="modalGato1" tabindex="-1" aria-labelledby="modalGato1Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalGato1Label">Misu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <img src="imgs/loan-7AIDE8PrvA0-unsplash.jpg" class="img-fluid mb-3" alt="Misu">
+            <p>Misu es una gata juguetona y cariñosa que busca un hogar lleno de amor. Le encanta jugar con pelotas y recibir mimos.</p>
+            <ul>
+              <li>Edad: 2 años</li>
+              <li>Sexo: Hembra</li>
+              <li>Vacunada y desparasitada</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <a href="#contacto" class="btn btn-primary">Adoptar a Misu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalGato2" tabindex="-1" aria-labelledby="modalGato2Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalGato2Label">Tommy</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <img src="imgs/philcreates-pdALzg0yN-8-unsplash.jpg" class="img-fluid mb-3" alt="Tommy">
+            <p>Tommy es un gato tranquilo y afectuoso que disfruta de las siestas al sol. Es ideal para hogares que buscan un compañero relajado.</p>
+            <ul>
+              <li>Edad: 3 años</li>
+              <li>Sexo: Macho</li>
+              <li>Vacunado y desparasitado</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <a href="#contacto" class="btn btn-primary">Adoptar a Tommy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalGato3" tabindex="-1" aria-labelledby="modalGato3Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalGato3Label">Luna</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <img src="imgs/lloyd-dirks-R1oSj2m-7Ks-unsplash.jpg" class="img-fluid mb-3" alt="Luna">
+            <p>Luna es una gata curiosa y enérgica que adora explorar nuevos lugares. Es perfecta para familias activas que disfrutan del juego.</p>
+            <ul>
+              <li>Edad: 1 año</li>
+              <li>Sexo: Hembra</li>
+              <li>Vacunada y desparasitada</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <a href="#contacto" class="btn btn-primary">Adoptar a Luna</a>
+          </div>
+        </div>
+      </div>
+    </div>
        
-
     <!-- Sección 5: Formulario -->
+    <section id="contacto" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-4 text-center">Contáctanos</h2>
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
    
   <!-- Footer -->
+  <footer class="py-4 border-top">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <small class="text-body-secondary">© <span id="year"></span> Gatitos Felices</small>
+      <div class="d-flex gap-3">
+        <a class="text-body-secondary" href="#" aria-label="GitHub"><i class="bi bi-github fs-5"></i></a>
+        <a class="text-body-secondary" href="#" aria-label="Instagram"><i class="bi bi-instagram fs-5"></i></a>
+        <a class="text-body-secondary" href="#" aria-label="Facebook"><i class="bi bi-facebook fs-5"></i></a>
+      </div>
+    </div>
+  </footer>
  
 
   <!-- Bootstrap JS -->
