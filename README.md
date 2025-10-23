@@ -35,7 +35,7 @@ Incluye secciones interactivas, componentes de Bootstrap y un diseño completame
 
 ## 💡 Cómo ejecutar
 ```bash
-git clone https://github.com/tuusuario/gatitos-felices.git
+git clone https://github.com/iherrono-gif/paginaWeb
 cd gatitos-felices
 open index.html
 ```
